@@ -1,0 +1,16 @@
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: blue;
+    width: 80%;
+    font-family: sérif;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+}
+ th{
+     font-weight: bold;
+     border-collapse: collapse;
+     text-align: center;
+}

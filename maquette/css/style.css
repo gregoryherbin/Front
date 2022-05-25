@@ -1,0 +1,138 @@
+body {
+background: #eaeaea url(/Users/GreG/Desktop/html/maquette/img/body.png);
+margin: 20px 30px;
+font-family: sans-serif;
+}
+
+#entete {
+background: #9f9f9f url(/Users/GreG/Desktop/html/Maquette/img/entete.png);
+border: 1px solid black;
+border-bottom: none;
+background-position: 0 1px;
+}
+
+h1 {
+height: 58px;
+line-height: 58px;
+border-bottom: 1px solid black;
+margin: 0;
+text-align: center;
+background: url(/Users/GreG/Desktop/html/Maquette/img/h1.png) 50% 50% no-repeat;
+text-indent: -32000px;
+}
+
+#menu {
+background: black url(/Users/GreG/Desktop/html/Maquette/img/menu.png);
+list-style: none;
+margin: 0;
+padding: 0;
+height: 29px;
+}
+
+#menu li {
+float: left;
+margin: 0 2px;
+}
+
+#menu a {
+display: block;
+text-decoration: none;
+color: #ffb400;
+background: url(/Users/GreG/Desktop/html/Maquette/img/menu-lien.png);
+cursor: pointer;
+}
+
+#menu span {
+display: block;
+height: 21px;
+line-height: 21px;
+padding: 0 10px;
+background: url(/Users/GreG/Desktop/html/Maquette/img/menu-lien-droite.png) 100% 0 no-repeat;
+}
+
+#menu a:hover,
+#menu a:focus,
+#menu a:active
+{
+color: black;
+background-color: #ffb400;
+background-position: 0 -21px;
+}
+
+#menu a:hover span,
+#menu a:focus span,
+#menu a:active span
+
+{
+    background-position: 100% -21px;
+}
+
+#menu .actuel {
+font-weight: bold;
+text-decoration: underline;
+}
+
+#page {
+background: white url(/Users/GreG/Desktop/html/Maquette/img/sous-menu-lien.png) repeat-y;
+border: 1px solid black;
+background-position: 1px 0;
+}
+
+#sous-menu {
+background: black url(/Users/GreG/Desktop/html/Maquette/img/sous-menu.png) repeat-y;
+float: left;
+width: 198px;
+list-style: none;
+margin: 0;
+padding:0;
+}
+
+#contenu {
+margin: 10px 10px 10px 209px;
+}
+
+#pied {
+clear: both;
+background: #9f9f9f url(/Users/GreG/Desktop/html/Maquette/img/pied.png);
+}
+
+#sous-menu a {
+display: block;
+height: 22px;
+line-height: 22px;
+background: url(/Users/GreG/Desktop/html/Maquette/img/sous-menu-lien.png);
+text-align: center;
+text-decoration: none;
+color: #ffb400;
+margin: 2px 0;
+}
+
+#sous-menu a:hover,
+#sous-menu a:focus,
+#sous-menu a:active
+{
+color: black;
+background-color: #ffb400;
+background-position: 0 -22px; 
+}
+
+#sous-menu .actuel {
+font-weight: bold;
+text-decoration: underline;
+}
+
+#pied {
+clear: both;
+border-top: 1px solid black;
+background: #9f9f9f url(/Users/GreG/Desktop/html/Maquette/img/pied.png);
+font-size: 12px;
+padding-top: 9px;
+height: 38px;
+line-height: 19px;
+text-align: center;
+color: #444444;
+}
+
+#pied a {
+color: black;
+}
