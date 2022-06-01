@@ -1,9 +1,17 @@
 .container1 {
     margin: 0 auto;
+    
 }
 
 .container2 {
-    float: right;
+    height: 1500px;
+    width: 1300px;
+    
+}
+
+.Texte {
+    float: left;
+    text-align: left;
 }
 .text-right {
     text-align: right!important;
@@ -13,6 +21,8 @@
 .Aside {
     background-color: orange;
     float: right;
+    height: 500px;
+    width: 200px;
 }
     
 .Texte {
