@@ -1,0 +1,23 @@
+.container1 {
+    margin: 0 auto;
+}
+
+.container2 {
+    float: right;
+}
+.text-right {
+    text-align: right!important;
+    float: right
+}
+
+.Aside {
+    background-color: orange;
+    float: right;
+}
+    
+.Texte {
+    float: left;
+    
+}
+
+
