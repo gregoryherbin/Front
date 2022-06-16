@@ -18,6 +18,7 @@ document.write("Le prix pour vos suppléments est de ");
 document.write(prixsupplement * quantitesupplement);
 document.write(" € </br></br>");
 
+
 var totalht = (prixboisson*quantiteboisson+prixplat*quantiteplat+prixsupplement*quantitesupplement);
 document.write("Total H.T ");
 document.write(totalht);
