@@ -4,76 +4,139 @@ let totalabsent = 0;
 var present = true;
 var absent = false;
 
-
-
-
-document.write("Liste des personnes: </br> </br> Gregory </br> Stéphane </br> Outman </br> Perrine </br> Cédric </br> Jimmy </br> </br>");
-var nom = confirm("Tout le monde est présent ? ");
-
-
-
+document.write("Liste des personnes: </br> </br> Herbin Gregory </br> Clarte Stéphane </br> Bekkouch Outman </br> Wengel Perrine </br> Chimot Cédric </br> Deccotignies Jimmy </br> Degand Anthony </br> Bail Benoit </br> Haouat Abdelhamid </br> Lourdez Théo </br> Gastout Camille </br> Hamdani Zakaria </br> Quertaimont Frédéric </br> Zaafane Halim </br> </br>");
+var nom = confirm("Tout le monde est-il présent ? ");
 {
 if (nom === false) {
-   var Gregory = confirm("Gregory est-il présent ? ");
-   if (Gregory === false) {
-    document.write("Gregory est absent </br>");
-   totalpresent = totalpresent + 1
    
+    var HGregory = confirm("Herbin Gregory est-il présent ? ");
+    if (HGregory === false) {
+        document.write("Herbin Gregory est absent </br>");
+        totalpresent = totalpresent + 1
     } else {  
-        document.write("Gregory est présent </br>");
+        document.write("Herbin Gregory est présent </br>");
         totalabsent = totalabsent + 1
     }
     
-    var Stéphane = confirm("Stéphane est-il présent ? ");
-   if (Stéphane === false) {
-    document.write("Stéphane est absent </br>");
-    totalpresent = totalpresent + 1
+    var CStéphane = confirm("Clarte Stéphane est-il présent ? ");
+    if (CStéphane === false) {
+        document.write("Clarte Stéphane est absent </br>");
+        totalpresent = totalpresent + 1
     } else {  
-        document.write("Stéphane est présent </br>");
+        document.write("Clarte Stéphane est présent </br>");
         totalabsent = totalabsent + 1
     }
    
-    var Outman = confirm("Outman est-il présent ? ");
-   if (Outman === false) {
-    document.write("Outman est absent </br>");
-    totalpresent = totalpresent + 1
+    var BOutman = confirm("Bekkouch Outman est-il présent ? ");
+    if (BOutman === false) {
+        document.write("Bekkouch Outman est absent </br>");
+        totalpresent = totalpresent + 1
    } else {  
-    document.write("Outman est présent </br>");
-    totalabsent = totalabsent + 1
+        document.write("Bekkouch Outman est présent </br>");
+        totalabsent = totalabsent + 1
 }
    
-   var Perrine = confirm("Pérrine est-elle présente ? ");
-    if (Perrine === false) {
-        document.write("Perrine est absente </br>");
+   var WPerrine = confirm("Wengel Pérrine est-elle présente ? ");
+    if (WPerrine === false) {
+        document.write("Wengel Perrine est absente </br>");
         totalpresent = totalpresent + 1
     } else {  
-        document.write("Perrine est présente </br>");
+        document.write("Wengel Perrine est présente </br>");
         totalabsent = totalabsent + 1
     } 
    
-    var Cedric = confirm("Cédric est-il présent ? ");
-   if (Cedric === false) {
-        document.write("Cédric est absent </br>");
+    var CCedric = confirm("Chimot Cédric est-il présent ? ");
+    if (CCedric === false) {
+        document.write("Chimot Cédric est absent </br>");
         totalpresent = totalpresent + 1
-   } else {  
-    document.write("Cédric est présent </br>");
+    } else {  
+        document.write("Chimot Cédric est présent </br>");
         totalabsent = totalabsent + 1
     }
    
-   var Jimmy = confirm("Jimmy est-il présent ? ");
-   if (Jimmy === false) {
-    document.write("Jimmy est absent </br></br> ");
-    totalpresent = totalpresent + 1
-   } else {  
-    document.write("Jimmy est présent </br></br>");
+    var DJimmy = confirm("Decottignies Jimmy est-il présent ? ");
+    if (DJimmy === false) {
+        document.write("Decottignies Jimmy est absent </br> ");
+        totalpresent = totalpresent + 1
+    } else {  
+        document.write("Decottignies Jimmy est présent </br>");
         totalabsent = totalabsent + 1
-}
+    }
+    
+    var DAnthony = confirm("Degand Anthony est-il présent ? ");
+    if (DAnthony === false) {
+        document.write("Degand Anthony est absent </br> ");
+        totalpresent = totalpresent + 1
+    } else {  
+        document.write("Degand Anthony est présent </br>");
+        totalabsent = totalabsent + 1 }
+
+    
+    var BBenoit = confirm("Bail Benoit est-il présent ? ");
+    if (BBenoit === false) {
+        document.write("Bail Benoit est absent </br> ");
+        totalpresent = totalpresent + 1
+    } else {  
+        document.write("Bail Benoit est présent </br>");
+        totalabsent = totalabsent + 1 }
+
+    
+    var HAbdelhamid = confirm("Haouat Abdelhamid est-il présent ? ");
+    if (HAbdelhamid === false) {
+        document.write("Haouat Abdelhamid est absent </br> ");
+        totalpresent = totalpresent + 1
+    } else {  
+        document.write("Haouat Abdelhamid est présent </br>");
+        totalabsent = totalabsent + 1 }
+
+        
+    var LTheo = confirm("Lourdez Théo est-il présent ? ");
+    if (LTheo === false) {
+        document.write("Lourdez Théo est absent </br> ");
+        totalpresent = totalpresent + 1
+    } else {  
+        document.write("Lourdez Théo est présent </br>");
+        totalabsent = totalabsent + 1 }
+
+    
+    var GCamille = confirm("Gastout Camille est-il présent ? ");
+    if (GCamille === false) {
+        document.write("Gastout Camille est absent </br> ");
+        totalpresent = totalpresent + 1
+    } else {  
+        document.write("Gastout Camille est présent </br>");
+        totalabsent = totalabsent + 1 }
+
+    
+    var HZakaria = confirm("Hamdani Zakaria est-il présent ? ");
+    if (HZakaria === false) {
+        document.write("Hamdani Zakaria est absent </br> ");
+        totalpresent = totalpresent + 1
+    } else {  
+        document.write("Hamdani Zakaria est présent </br>");
+        totalabsent = totalabsent + 1 }
+            
+            
+    var QFrederic = confirm("Quertaimont Frédéric est-il présent ? ");
+    if (QFrederic === false) {
+        document.write("Quertaimont Frédéric est absent </br> ");
+        totalpresent = totalpresent + 1
+    } else {  
+        document.write("Quertaimont Frédéric est présent </br>");
+        totalabsent = totalabsent + 1 }
+
+    
+    var ZHalim = confirm("Zaafane Halim est-il présent ? ");
+    if (ZHalim === false) {
+        document.write("Zaafane Halim est absent </br></br>");
+        totalpresent = totalpresent + 1
+    } else {  
+        document.write("Zaafane Halim est présent </br></br>");
+        totalabsent = totalabsent + 1 }            
 }
 else  {
     result = document.write("</br> Merveilleux tout le monde est la ! </br> </br> ");
 }
-
-
 
 if (nom === false) {
     document.write("Il y'a ")
