@@ -42,9 +42,9 @@ if (nom === false) {
    } else {  
         document.write("Bekkouch Outman est présent </br>");
         totalabsent = totalabsent + 1
-}
+    }
    
-   var WPerrine = confirm("Wengel Pérrine est-elle présente ? ");
+    var WPerrine = confirm("Wengel Pérrine est-elle présente ? ");
     if (WPerrine === false) {
         document.write("Wengel Perrine est ABSENTE </br>");
         totalpresent = totalpresent + 1
@@ -95,7 +95,8 @@ if (nom === false) {
         totalpresent = totalpresent + 1
     } else {  
         document.write("Haouat Abdelhamid est présent </br>");
-        totalabsent = totalabsent + 1 }
+        totalabsent = totalabsent + 1 
+    }
 
         
     var LTheo = confirm("Lourdez Théo est-il présent ? ");
@@ -154,4 +155,6 @@ if (nom === false) {
     document.write(totalpresent)
     document.write(" absents </br></br>")
     }  
+    
 }
+

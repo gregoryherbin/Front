@@ -1,0 +1,7 @@
+table { float: right;
+width: 80%;
+border-collapse: collapse;
+border: 3px solid black;
+table-layout: auto;
+}
+
