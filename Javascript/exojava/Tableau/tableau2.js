@@ -33,3 +33,4 @@ document.write("</br> Jour lettre: ", day,"</br>")
 document.write(day.toUpperCase());
 const index = 2;
 console.log(day.charAt(index));
+// : "Le caractère dans l'index est le 3 eme caractère du jour "
