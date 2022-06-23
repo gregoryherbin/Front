@@ -31,4 +31,5 @@ const jourl=new Date();
 var day = weekday[jourl.getDay()];
 document.write("</br> Jour lettre: ", day,"</br>")
 document.write(day.toUpperCase());
- 
+const index = 2;
+console.log(day.charAt(index));
