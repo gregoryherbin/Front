@@ -24,4 +24,11 @@ var maintenant=new Date();
 var jour=maintenant.getDate();
 var mois=maintenant.getMonth()+1;
 var an=maintenant.getFullYear();
-document.write(" <br> la date: ", jour,"/",mois,"/",an,".");
+document.write(" </br> la date: ", jour,"/",mois,"/",an,".");
+
+const weekday = ["Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi"];
+const jourl=new Date();
+var day = weekday[jourl.getDay()];
+document.write("</br> Jour lettre: ", day,"</br>")
+document.write(day.toUpperCase());
+ 

@@ -1,7 +1,7 @@
-let totalpresent = 0;
-let totalabsent = 0;
-
-var present = true;
+let totalpresent = 0;                   // factorisation a faire ...
+let totalabsent = 0;                    // inclure les présents/absents dans un tableau ? 
+                                        // habillage html ?
+var present = true;                     // 
 var absent = false;
 
 // date du jour
@@ -17,7 +17,7 @@ var nom = confirm("Tout le monde est-il présent ? ");
 {
 if (nom === false) {
    
-    var HGregory = confirm("Herbin Gregory est-il présent ? ");
+    var HGregory = confirm("Herbin Gregory est-il présent ? "); 
     if (HGregory === false) {
         document.write("Herbin Gregory est ABSENT </br>");
         totalpresent = totalpresent + 1
