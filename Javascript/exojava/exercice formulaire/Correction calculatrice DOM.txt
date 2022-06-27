@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            margin: 30px;
+        }
+    </style>
+    <script>
+        function multiplyBy() {
+            num1 = document.formu[0].value;
+            num2 = document.formu[1].value;
+            console.log(num1) ;
+            document.getElementById("result").innerHTML = num1 * num2;
+        }
+ 
+        function divideBy() {
+            num1 = document.formu[0].value;
+            num2 = document.formu[1].value;
+            document.getElementById("result").innerHTML = num1 / num2;
+        }
+    </script>
+</head>
+ 
+<body>
+    <form name="formu">
+        1st Number : <input type="text" id="firstNumber" /><br>
+        2nd Number: <input type="text" id="SecondNumber" /><br>
+        <input type="button" onClick="multiplyBy()" value="Multiply" />
+        <input type="button" onClick="divideBy()" value="Divide" />
+    </form>
+    <p>The Result is :
+        <span id="result"></span>
+    </p>
+</body>
+ 
+</html>
