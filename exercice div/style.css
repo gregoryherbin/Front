@@ -17,6 +17,7 @@
     width: 650px;
     background-color: pink;
     float: right;
+    display: inline;
 }
 
 .box3 {

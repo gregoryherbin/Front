@@ -1,0 +1,50 @@
+.inline { display:inline; 
+}
+
+
+.container1 {
+height: 1280px;        /* hauteur */
+width: 960px;           /* largeur */
+margin: 0 auto;
+}
+
+/* NOM */
+.box1 {             
+    height: 100px;
+    width: 30%;
+    float: left;
+    background-color: red;
+    text-align: center;
+}
+
+/* NAV BAR */
+.box2 {
+    height: 100px;
+    width: 70%;
+    float: right;
+    background-color: yellow;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* PHOTO*/
+.box3 {
+    width: 435px;
+    height: 635px;
+    float: left;
+}
+
+/* Texte milieu*/
+.box4 {
+    width: 30%;
+    float: left;
+    text-align: center;
+    /* margin-top: 200px; */
+}
+
+/* PHOTO 2 */
+.box5 {
+    width: 231px;
+    height: 635px;
+    float: right;
+}
