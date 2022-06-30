@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,44 +8,89 @@
     <link rel="stylesheet" href="style.css">
     <script src="/ExerciceCV/cv.js"></script>
     <title>CV</title>
-</head>
-<body>
-    <div id="principal">
-        
-        <header>
-            <div class="container1">
-                <div class="box1"><h2>Herbin Grégory</h2></div>
-                
-                <div class="box2"><ul class="inline"><a href=""> CV </a> 
-                    <ul class="inline"><a href=""> Contact </a></ul>
-                </ul></div>
-                
-                
-                <div class="box3"><img src="https://static.wixstatic.com/media/84770f_98c3dfee94e74a9791af840ab742a6d8~mv2_d_1920_1430_s_2.jpg/v1/fill/w_653,h_953,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_98c3dfee94e74a9791af840ab742a6d8~mv2_d_1920_1430_s_2.jpg" alt style="width: 435px; height: 635px; object-fit: cover; object-position: 50% 50%;"></div>
-                 
-                <div class="box4"><h2>Salut, je suis Gregory Herbin</h2>
-                    <h3>Developpeur full stack</h3>
-                </div>
-            
+    <script>
 
-                <div class="box5"><img src="https://static.wixstatic.com/media/84770f_e676b3c338f240cdb3deb621527490fd~mv2_d_1262_1920_s_2.jpg/v1/fill/w_347,h_953,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_e676b3c338f240cdb3deb621527490fd~mv2_d_1262_1920_s_2.jpg" alt="" style="width: 231px; height: 635px; object-fit: cover; object-position: 50% 50%;"></div>
-            
-            
-            
-            
+        function cliquer(){
+             console.log(click);
+        }
+       
+    </script>
+</head>
+
+<body>
+
+
+    <div class="container1">
+        <header>
+            <div class="box1">
+                <h2>Herbin Grégory</h2>
+            </div>
+
+            <div class="box2">
+                <ul class="inline"><a href=""> CV </a>
+                    <ul class="inline"><a href="">Contact </a></ul>
+                </ul>
             </div>
         </header>
 
+        <div class="box3"><img class="img1"
+                src="https://static.wixstatic.com/media/84770f_98c3dfee94e74a9791af840ab742a6d8~mv2_d_1920_1430_s_2.jpg/v1/fill/w_653,h_953,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_98c3dfee94e74a9791af840ab742a6d8~mv2_d_1920_1430_s_2.jpg">
+        </div>
+
+        <div class="box4">
+            <h2 class="TxtB4">Salut, je suis Gregory Herbin</h2>
+            <h3>Developpeur full stack</h3>
+        </div>
+
+
+        <div class="box5"><img class="img2"
+                src="https://static.wixstatic.com/media/84770f_e676b3c338f240cdb3deb621527490fd~mv2_d_1262_1920_s_2.jpg/v1/fill/w_347,h_953,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_e676b3c338f240cdb3deb621527490fd~mv2_d_1262_1920_s_2.jpg">
+        </div>
+
+        <div class="box6">
+            <div class="c1">Contact:</div>
+            <form class="form1">
+                <ul>
+                    <div class="np">
+                        <input type="text" id="nom" name="nom" placeholder="Nom*" required>
+                        <input type="text" id="prenom" name="prenom" placeholder="Prenom*" required>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="ean">
+                        <input type="text" id="email" name="email" placeholder="E-mail*" required>
+                        <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+                        <input type="text" id="numtel" name="numtel" placeholder="Numéro tel">
+                    </div>
+                </ul>
+                <textarea class="objet" rows="6" cols="75" placeholder="Pourquoi me contactez-vous ?*"
+                    required></textarea>
+                    <input type="image" class="bvalider" img src="/test.png" onclick="cliquer()"></button>
+            </form>
        
+        </div>
 
-
-
-
-
-        
-
+        <footer>
+            <div class="box7">
+                <div class="c2">Partenaires:</div>
+            </div>
+        </footer>
 
 
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>
