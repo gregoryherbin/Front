@@ -1,4 +1,16 @@
-.inline { display:inline; 
+.inline { 
+    display:inline; 
+}
+
+a:link 
+{ 
+    text-decoration:none;
+} 
+
+a:hover {
+    color:red;
+    text-decoration:none;
+    background-color: black;
 }
 
 * {
