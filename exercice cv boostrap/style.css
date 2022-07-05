@@ -38,15 +38,15 @@ a:hover {
 
 #box3 {
     border: solid black 2px;
-    background-color: blue;
+    background-color: bisque;
     /* width: 487px;  */
     /* height: 635px; */
 } 
 
-.img1 {
-    object-fit: cover;
-    width: 100%;
-    
+#img1 {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
 }
 
 #box4 {
@@ -54,11 +54,15 @@ a:hover {
     border: solid black 2px;
 }
 
+.TxtB4 {
+    display: inline-block;
+}
+
 #box5 {
     border: solid black 2px;
 }
 
-.img2 {
+#img2 {
     object-fit: cover;
     width: 100%;
 }
