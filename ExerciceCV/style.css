@@ -18,13 +18,13 @@ a:hover {
 }
 
 body { 
-    width: 100%;           /* largeur */
+    width: 100%;
     background-color: bisque;
     border: solid black 2px;
     display: flexbox;
 }
 
-.container1 {
+.container-fluid {
     display: grid;
     grid-template-columns: 30% 70%;
 }
@@ -41,7 +41,6 @@ body {
 
 /* NOM */
 .box1 {             
-    float: left;
     background-color: red;
     text-align: center;
     border: solid black 2px;
@@ -101,7 +100,7 @@ body {
 
 .bvalider {
     height: 30px;
-    margin: auto;
+    
 }
 
 /* formulaire contact*/
@@ -123,12 +122,12 @@ body {
     height: 100%;
 }
 
-.c1 {
+#c1 {
     font-size: 30px;
     font-weight: bolder;
 }
 
-.c2 {
+#c2 {
     font-size: 30px;
     font-weight: bolder;
 }
