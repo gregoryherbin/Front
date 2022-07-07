@@ -3,8 +3,8 @@ var ctx = canvas.getContext("2d");
 var ballRadius = 5; //taille balle
 var x = canvas.width/2;
 var y = canvas.height-30;
-var dx = 2; //trajectoire verticale
-var dy = -2; //trajectoire horizontale
+var dx = 5; //vitesse balle axe x
+var dy = -5; //vitesse balle axe y
 var paddleHeight = 10; //hauteur paddle
 var paddleWidth = 75; // largeur paddle
 var paddleX = (canvas.width-paddleWidth)/2;
@@ -19,6 +19,10 @@ var brickOffsetTop = 30; // marge au dessus du block de brick
 var brickOffsetLeft = 30; // marge gauche du block de brick
 var score = 0; // score
 var lives = 1; //nombre vie
+
+var test1 = new Audio("paddle.mp3");
+var GO = new Audio("game_over.mp3")
+var fxWall = new Audio("wall.mp3");
 
 var bricks = [];
 for(var c=0; c<brickColumnCount; c++) {
@@ -139,8 +143,10 @@ function draw() {
     else {
       lives--;
       if(!lives) {                      /* si lives = 0 alors afficher game over puis recharger la page */
-        alert("GAME OVER");
-        document.location.reload();
+      
+      alert("GAME OVER");
+      GO.play();
+      document.location.reload();
       }
       else {
         x = canvas.width/2;             
