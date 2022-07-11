@@ -33,11 +33,6 @@ etudiant[14] = "Halim";
 etudiant[15] = "Zakaria";
 
 
-
-
-
-
-
 // console.table(etudiant);
 
 // document.write("</br>");
@@ -75,13 +70,23 @@ etudiant[15] = "Zakaria";
       // console.log(etudiant[i]);
 
 // }
-function search() {
-      var input = document.getElementById("Input").value;
-      for (let i = 0; i < etudiant.length; i++) {
-        if (etudiant[i] == input) {
-          document.getElementById("result").innerHTML = (etudiant[i]);
-          return;
-        }
-      }
-      document.getElementById("result").innerHTML = ('Pas dans la liste');
-    };
+// function search() {                                                                    Recherche un prenom (Vraiment similaire) dans la liste
+      // var input = document.getElementById("Input").value;
+      // for (let i = 0; i < etudiant.length; i++) {
+      //   if (etudiant[i] == input) {
+      //     document.getElementById("result").innerHTML = (etudiant[i]);
+      //     return;
+      //   }
+      // }
+      // document.getElementById("result").innerHTML = ('Pas dans la liste');
+//     };
+
+      
+      // let result = etudiant.filter(word => word.length > 6);                           Affiche les prenoms avec plus de 6 caracteres
+      // console.log(result);
+
+
+
+      // splice, pop, find ????
+
+      ;
