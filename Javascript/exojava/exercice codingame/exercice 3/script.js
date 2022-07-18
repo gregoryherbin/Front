@@ -12,11 +12,12 @@ let refrain = document.getElementsByClassName("refrain");
 //   }
 // })
 
-MR.addEventListener("click", () => {                                // Masquer refrain non fonctionnel
-  if(getComputedStyle(refrain).display != "none"){
-    refrain.style.display = "none";
-  } else {
-    refrain.style.display = "block";
-  }
-})
-
+MR.addEventListener('click', function() {
+  let refrain = document.getElementsByClassName("refrain");
+if( this.checked){
+    refrain.style.display = 'block'  ; 
+}
+else{
+    refrain.style.display = 'none'  ;
+}
+});
