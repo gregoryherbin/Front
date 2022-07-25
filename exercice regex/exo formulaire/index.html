@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/eo formulaire/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" id="form1">
+        <input type="text" id="email" name="email" placeholder="e-mail" required>
+        <input type="text" id="ddn" name="ddn" placeholder="date de naissance" required>
+        <input type="password" id="mdp" name="mdp" placeholder="mot de passe" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Doit contenir au moins un chiffre et une lettre majuscule et minuscule, et au moins 8 caractères ou plus" required>
+        <input type="button" id="val" value="valider" onclick="ValidateEmail(email); valideChampDateNais(ddn); verifyPassword();">
+    </form>
+    <span id="erreurD"></span>
+    <span id ="message" > </span>
+
+    <script src="/exo formulaire/script.js"></script>
+</body>
+</html>
