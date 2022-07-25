@@ -137,7 +137,7 @@ if (nom === false) {
     
     var ZHalim = confirm("Zaafane Halim est-il présent ? ");
     if (ZHalim === false) {
-        document.write("Zaafane Halim est ABSENT </br></br>");
+        document.write("Zaafane Halim est ABSENT</br></br>");
         totalpresent = totalpresent + 1
     } else {  
         document.write("Zaafane Halim est présent </br></br>");
